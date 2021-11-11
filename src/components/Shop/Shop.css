@@ -1,0 +1,9 @@
+.pd__search {
+    width: 50%;
+}
+
+@media (max-width:768px) {
+    .pd__search {
+        width: 100%;
+    }
+}

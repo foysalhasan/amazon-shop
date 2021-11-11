@@ -1,0 +1,16 @@
+.cart__comp {
+    position: fixed;
+    top: 40%;
+    right: 30px;
+    width: 350px;
+}
+
+@media (max-width:768px) {
+    .cart__comp {
+        position: static;
+        margin-top: 30px;
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+}
